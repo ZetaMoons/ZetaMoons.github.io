@@ -72,9 +72,7 @@ for square in squares:
     print(square)
     
     
-# Escreva um loop while para exibir os valores da classificação de uma lista de reprodução de álbum armazenada na lista PlayListRatings. 
-Se a pontuação for inferior a 6, saia do loop. 
-A lista PlayListRatings é fornecida por: PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
+# Escreva um loop while para exibir os valores da classificação de uma lista de reprodução de álbum armazenada na lista PlayListRatings. Se a pontuação for inferior a 6, saia do loop. A lista PlayListRatings é fornecida por: PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
 PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
 i = 0
 Rating = PlayListRatings[0]
@@ -83,8 +81,7 @@ while(i < len(PlayListRatings) and Rating >= 6):
     print(Rating)
     i = i + 1
     
-# Escreva um loop while para copiar as strings 'laranja' dos quadrados da lista para a lista new_squares. 
-Pare e saia do loop se o valor na lista não for 'laranja':
+# Escreva um loop while para copiar as strings 'laranja' dos quadrados da lista para a lista new_squares. Pare e saia do loop se o valor na lista não for 'laranja':
 squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
 new_squares = []
 i = 0
